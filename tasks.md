@@ -80,7 +80,7 @@ SELECT * FROM matches ORDER BY fthg, ftag DESC;
 10) In which division and which season were the most goals scored?
 
 ```sql
-<!-- Copy solution here -->
+SELECT * FROM matches ORDER BY fthg+ftag DESC;
 
 
 ```
