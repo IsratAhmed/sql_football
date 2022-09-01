@@ -72,7 +72,7 @@ SELECT hometeam, awayteam, season FROM matches WHERE hometeam = 'Eredivisie' OR 
 9) Select the matches played in the Premier League in order of total goals scored from highest to lowest. Where there is a tie the match with more home goals should come first.
 
 ```sql
-<!-- Copy solution here -->
+SELECT * FROM matches ORDER BY fthg, ftag DESC;
 
 
 ```
